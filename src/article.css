@@ -1,0 +1,20 @@
+article { 
+  width: 370px;
+  display: inline-block;
+  transition: box-shadow 0.2s ease;
+  margin:  40px 10px  0 10px;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+}
+article > img {
+  width: inherit;
+  border-radius: 4px;
+}
+article > p { 
+  margin: 10px 15px;
+
+}
+article:hover {
+  box-shadow: 0px 3px 5px rgb(0,0,0,0.2);
+}
